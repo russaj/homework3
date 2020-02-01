@@ -43,7 +43,8 @@ p{
 
 a {
   font-size: 16px;
-  color: #C12258;
+  color: #83163A;
+  /*starting with #C12258, #83163A was the first color to pass */
   text-decoration: underline wavy;
 }
 
@@ -119,5 +120,7 @@ footer{
   width:100%;
   background:black;
   text-align:center;
+}
+footer p {
   color: white;
 }
