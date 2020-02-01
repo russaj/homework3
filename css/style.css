@@ -49,7 +49,7 @@ a {
 }
 
 table{
-  border: 2px solid black;
+  border-top: 2px solid black;
   border-collapse: separate;
   border-radius: 15px;
   margin-left: auto;
@@ -89,6 +89,8 @@ tr:nth-child(even){
 tr:hover {
   background-color: #7e0820;
   opacity: 0.5;
+  transition: 1s;
+  /*added as part of Deeper Questions*/
 }
 
 *:focus{
